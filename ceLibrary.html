@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Library</title>
+	<link rel="stylesheet" type="text/css" href="cestyle/ceCriticalError.css">
+</head>
+<body>
+	<header>
+		<div class="contentPhone">
+			<div class="smallNav" id="smallNav">
+				<button class="hamburger" id="hamburger">
+					<div class="fa"></div>
+					<div class="fa"></div>
+					<div class="fa"></div>
+				</button>
+				<ul class="navList" id="navList">
+					<li><a href="ceCriticalError.html">Home</a></li>
+					<li><a href="ceLibrary.html">Library/Recordings</a></li>
+					<li><a href="ceEnsemble.html">Ensemble</a></li>
+					<li><a href="ceContact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div><h1 id="header">Critical Error</h1></div>
+		<nav id="pages">
+			<a href="ceCriticalError.html">Home</a>
+			<a href="ceLibrary.html">Library/Recordings</a>
+			<a href="ceEnsemble.html">Ensemble</a>
+			<a href="ceContact.html">Contact</a>
+		</nav>
+	</header>
+	<div class="layout">
+		<div class="column side" id="left">
+			<button class="btn" id="tileBtn"><p>Tile the Plane</p></button>
+			<button class="btn" id="bladeRunnerBtn"><p>Blade Runner</p></button>
+			<button class="btn" id="unoBtn"><p>Uno</p></button>
+		</div>
+
+		<div class="column middle" id="middle">
+			<div class="tile" id="tile" style="width: 99%;">
+				<video id="tileVid" controls><source src="cestyle/videos/tileThePlane.mp4" type="video/mp4"></video>	
+			</div>
+			<div class="bladeRunner" id="bladeRunner">
+				<video id="bladeRunnerVid" controls style="width: 99%;"><source src="cestyle/videos/bladeRunner.mp4" type="video/mp4"></video>
+			</div>
+			<div class="uno" id="uno">
+			<video id="unoVid" controls style="width: 99%;"><source src="cestyle/videos/uno.mp4" type="video/mp4"></video>
+			</div>
+		</div>
+
+		<div class="column side" id="right">
+			<p>Upcoming Performances</p>
+			<br>
+			<p class="location"><b>Peabody, Cohen-Davis</b></p>
+			<p class="performanceInfo">1st East Mt Vernon Place</p>
+			<p class="performanceInfo">10/17/2022, 8:00 PM</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="cestyle/ceCriticalErrorLibrary.js"></script>
+</body>
+</html>
